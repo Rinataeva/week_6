@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+    <style>
+            .cell {
+              color: aliceblue;
+              font-size: 16px;
+              text-align: center;
+              padding: 10px;
+            }
+            .containter {
+              display: grid;
+              grid-template-columns: 200px 150px 50px;
+              grid-template-rows: 150px; 250px 100px;
+            }
+            .cell7{
+      grid-column: 2/3;
+      grid-row: 1/2;
+            }
+    </style>
+  </head>
+  <body>
+    <h1>Grid</h1>
+    <div class="containter">
+      <div class="cell cell1" style="background-color: antiquewhite">1</div>
+      <div class="cell cell2" style="background-color: aquamarine">2</div>
+      <div class="cell cell3" style="background-color: rgb(33, 131, 131)">
+        3
+      </div>
+      <div class="cell cell4" style="background-color: blueviolet">4</div>
+      <div class="cell cell5" style="background-color: brown">5</div>
+      <div class="cell cell6" style="background-color: blanchedalmond">6</div>
+      <div class="cell cell7" style="background-color: antiquewhite">7</div>
+      <div class="cell cell8" style="background-color: aquamarine">8</div>
+      <div class="cell cell9" style="background-color: rgb(43, 156, 156)">
+        9
+      </div>
+      <div class="cell cell10" style="background-color: blueviolet">10</div>
+      <div class="cell cell11" style="background-color: brown">11</div>
+      <div class="cell cell12" style="background-color: blanchedalmond">12</div>
+    </div>
+  </body>
+</html>
