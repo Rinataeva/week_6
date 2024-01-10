@@ -10,11 +10,12 @@
               font-size: 16px;
               text-align: center;
               padding: 10px;
-            }
+                          }
             .containter {
               display: grid;
-              grid-template-columns: 200px 150px 50px;
+              grid-template-columns: 1fr 2fr 100px;
               grid-template-rows: 150px; 250px 100px;
+              grid-gap: 10px;
             }
             /* Ячейки сдвигают границы по линиям через слэш */
             .cell7{
@@ -34,7 +35,9 @@
       <div class="cell cell4" style="background-color: blueviolet">4</div>
       <div class="cell cell5" style="background-color: brown">5</div>
       <div class="cell cell6" style="background-color: blanchedalmond">6</div>
-      <div class="cell cell7" style="background-color: rgb(156, 96, 18)">7</div>
+      <div class="cell cell7" style="background-color: rgb(165, 129, 82)">
+        7
+      </div>
       <div class="cell cell8" style="background-color: aquamarine">8</div>
       <div class="cell cell9" style="background-color: rgb(43, 156, 156)">
         9
